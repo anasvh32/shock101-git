@@ -2,6 +2,8 @@ def reply(text):
     text = text.strip().lower()
     if text == "help":
         return "I can answer a few simple sentences."
+    if text == "salam":
+        return "Salam!"
     return "Sorry, I do not understand yet."
 
 
